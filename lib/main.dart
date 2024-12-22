@@ -211,7 +211,7 @@ class _FlashlightPageState extends State<FlashlightPage> {
                 child: ElevatedButton(
                   onPressed: _stopLoop,
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.red,
+                    backgroundColor: Colors.transparent,
                     shape: const CircleBorder(),
                     padding: const EdgeInsets.all(24),
                   ),
@@ -262,7 +262,7 @@ class _FlashlightPageState extends State<FlashlightPage> {
             ElevatedButton(
               onPressed: _startLoop,
               style: ElevatedButton.styleFrom(
-                backgroundColor: Colors.green,
+                backgroundColor: Colors.black,
                 foregroundColor: Colors.white,
                 padding: const EdgeInsets.symmetric(vertical: 16),
                 shape: RoundedRectangleBorder(
@@ -274,7 +274,7 @@ class _FlashlightPageState extends State<FlashlightPage> {
                 style: TextStyle(fontSize: 18),
               ),
             ),
-            
+            Image.asset("assets/Animation - 1734891711064.gif"),
           ],
         ),
       ),
